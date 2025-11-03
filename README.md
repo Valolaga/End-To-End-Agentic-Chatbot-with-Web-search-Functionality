@@ -12,3 +12,10 @@ Here are concise, structured key points extracted and summarized from the reposi
 - Modular Architecture: Easy-to-extend components for adding new tools, search providers, or LLM backends.
 - Error Handling & Retry Logic: Built-in mechanisms for robust performance, including fallback responses if searches fail.
 - Deployment Ready: Supports local runs and cloud deployment (e.g., via Docker or Streamlit).
+### Tech Stack
+- Core Framework: LangChain or LlamaIndex for agent orchestration and chaining.
+- LLM Backend: OpenAI GPT models (or alternatives like Hugging Face) for natural language understanding and generation.
+- Search Tools: Integrated with web search APIs for dynamic content retrieval.
+- Frontend: Streamlit or Gradio for a simple, interactive web-based chat interface.
+- Language: Python 3.8+.
+- Dependencies: Minimal setup with libraries like langchain, openai, streamlit, and requests.
